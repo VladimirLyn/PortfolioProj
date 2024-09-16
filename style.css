@@ -26,6 +26,8 @@ header{
         background: url('image/rs=w_1920,m.webp');
         background-repeat: no-repeat;
         background-size: auto, cover;
+        border-bottom-left-radius: 1000px;
+        border-bottom: solid #F24B88;
 }
 .MyImg{
     display: flex;
