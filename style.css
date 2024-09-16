@@ -13,17 +13,30 @@ main {
   justify-content: space-evenly;
   align-content: center;
 }
+header{
+        background: url('image/rs=w_1920,m.webp');
+        background-repeat: no-repeat;
+        background-size: auto, cover;
+}
+.MyImg{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 300px;
+    padding-bottom: 300px;
+    padding-top: 300px;
+    height: 300px;
+}
 .H {
   font-size: 52px;
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 100px;
   background-color: #e6dc70;
   color: #3c3a26;
 }
 .card1 {
   background-color: #bbb67b;
-  width: 750px;
+  width: 900px;
   height: auto;
   margin-top: 100px;
   border-radius: 100px;
@@ -63,7 +76,7 @@ main {
   justify-content: center;
 }
 .down_text1 {
-  font-size: 24px;
+  font-size: 32px;
   border: none;
   text-align: center;
   display: flex;
@@ -72,7 +85,7 @@ main {
 }
 .card2 {
   background-color: #bbb67b;
-  width: 500px;
+  width: 450px;
   height: auto;
   margin-top: 100px;
   border-radius: 100px;
@@ -91,11 +104,13 @@ main {
   flex-direction: column;
 }
 .Myfooter {
-  margin-top: 250px;
+  margin-top: 100px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
 .GoingText {
   font-size: 72px;
+  color: #bbb67b;
 }
