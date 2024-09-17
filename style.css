@@ -3,6 +3,7 @@
   margin: 0;
   font-family: "Times New Roman", Times, serif;
   color: #BF7A87;
+  text-shadow: #00305B 1px 0 2px;
 }
 body {
   background-color: #00305B;
@@ -45,6 +46,7 @@ header{
   width: 1350px;
   background-color: #03588C;
   border-radius: 100px;
+  border-bottom: solid #F24B88;
 }
 .card1 {
   background-color: #03588C;
@@ -58,6 +60,7 @@ header{
   -o-border-radius: 100px;
   display: flex;
   flex-direction: column;
+  border-bottom: solid #F24B88;
 }
 .img1 {
   border-radius: 100px;
@@ -107,6 +110,7 @@ header{
   -o-border-radius: 100px;
   display: flex;
   flex-direction: column;
+  border-bottom: solid #F24B88;
 }
 .text2 {
   font-size: 30px;
@@ -118,19 +122,20 @@ header{
 footer{
     display: flex;
     justify-content: center;
-
+    text-align: center;
 }
 .Myfooter {
   background-color: #03588C;
-  margin-top: 220px;
+  margin-top: 130px;
   margin-bottom: 70px;
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   border-radius: 100px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
   -o-border-radius: 100px;
-  width: 1000px;
+  width: 500px;
+  border-bottom: solid #F24B88;
 }
